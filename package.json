@@ -4,8 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
+    "watch": "webpack --watch",
     "build": "webpack",
-    "dev": "webpack serve"
+    "start": "webpack serve --open",
+     "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
     "eslint-plugin-import": "^2.26.0",
     "hint": "^6.1.11",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
     "sass": "^1.50.1",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
