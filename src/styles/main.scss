@@ -1,3 +1,41 @@
 body {
-  background-color: bisque;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+.header {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+li:nth-child(n+2) {
+    margin-top: 6%;
+    margin-left: 7%;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0%;
+    color: black;
+    border: solid 1px #000000;
+}
+
+footer p {
+    width: 100%;
+    color: black;
+    margin-left: 6%;
+    margin-bottom: 3%;
+}
+
+footer div {
+    background-color: #5b4f4f78;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 1px #000;
 }
