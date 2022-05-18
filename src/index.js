@@ -1,5 +1,5 @@
 import './styles/main.scss';
-import logo from './assets/logo1.png';
+import logo from './assets/logo.png';
 
 const image = document.querySelector('.header__logo--img');
 
