@@ -25,6 +25,7 @@
     justify-content: space-around;
     flex-grow: 2;
     max-width: 900px;
+
     .meals {
       background-color: rgb(207, 174, 174);
     }
@@ -35,6 +36,7 @@
       padding: 16px 20px;
       margin-left: 2px;
       transition: all 0.3s;
+
       &:hover {
         background-color: rgb(207, 174, 174);
       }
