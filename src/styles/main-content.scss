@@ -12,7 +12,7 @@
 .card {
 	border-radius: 10px;
 	box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
-	background-color: #e9ded4;
+	background-color: rgb(207, 174, 174);
 	max-width:280px;
 	
 	&__img {
@@ -25,7 +25,26 @@
 		display: flex;
 		justify-content: space-between;
 		padding: 5px 12px;
+		margin-top: 5px;
 		align-items: center;
+
+		&--name {
+			font-weight: 500;
+			font-size: 18px;
+			letter-spacing: 0.5px;
+		}
+
+		&--like {
+			display: flex;
+			align-items: center;
+			cursor: pointer;
+			i {
+				margin-right: 5px;
+			}
+
+			
+		}
+		
 	}
 	&__bottom {
 		display: flex;

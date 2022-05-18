@@ -4,7 +4,7 @@ import logo from './assets/logo.png';
 import render from './module/render.js';
 
 const image = document.querySelector('.header__logo--img');
-
+const meals = document.querySelector('.meals');
 image.src = logo;
 
 const getData = async () => {
@@ -12,8 +12,8 @@ const getData = async () => {
     'https://www.themealdb.com/api/json/v1/1/filter.php?c=beef',
   );
   const data = await res.json();
-  console.log(data.meals);
-  await render(data.meals);
+  render(data.meals);
+  meals.innerHTML = `Meals (${data.meals.length})`;
 };
 
 getData();
