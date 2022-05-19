@@ -46,7 +46,7 @@ main.addEventListener('click', (e) => {
   const close = document.querySelector('.close');
   close.addEventListener('click', (e) => {
     e.preventDefault();
-    pop.style.display = 'none';
+    pop.remove();
   });
 });
 
