@@ -1,0 +1,55 @@
+.pop-up {
+  position: fixed;
+  top: 10%;
+  left: 13%;
+  bottom: 10%;
+  width: 72%;
+  height: 68%;
+  background-color: rgb(207, 174, 174);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+input {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  display: flex;
+  border: 1px solid black;
+}
+
+textarea {
+  width: 60%;
+  height: 200px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  display: flex;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+button {
+  width: 24%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  border: 1px solid black;
+}

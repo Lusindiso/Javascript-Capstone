@@ -1,4 +1,4 @@
-const main = document.querySelector('.main');
+export const main = document.querySelector('.main');
 
 const render = (data, likesList) => {
   main.innerHTML = '';
@@ -16,8 +16,8 @@ const render = (data, likesList) => {
 <div class="card__top--like"><i class="fa-regular fa-heart" id='like'></i> ${el.likes || ''} likes</div>
 </div>
 <div class="card__bottom">
-<a href="" class="btn">Comment</a>
-<a href="" class="btn">Resevation</a>
+<a href="" id="comments" class="btn">Comment</a>
+<a href="" id="reservations" class="btn">Resevation</a>
 </div>
 </div>`);
   });
