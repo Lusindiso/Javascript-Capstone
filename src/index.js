@@ -11,15 +11,15 @@ const image = document.querySelector('.header__logo');
 image.innerHTML = `<img src="${logo}" alt="" class="header__logo--img"></img>`;
 const meals = document.querySelector('.meals');
 
-const getData = async() => {
-    const res = await fetch(
-        'https://www.themealdb.com/api/json/v1/1/filter.php?c=beef',
-    );
-    const data = await res.json();
-    meals.innerHTML = `Meals (${data.meals.length})`;
-    const likes = await getLikes();
-    render(data.meals, likes);
-    eventHandler(data.meals);
+const getData = async () => {
+  const res = await fetch(
+    'https://www.themealdb.com/api/json/v1/1/filter.php?c=beef',
+  );
+  const data = await res.json();
+  meals.innerHTML = `Meals (${data.meals.length})`;
+  const likes = await getLikes();
+  render(data.meals, likes);
+  eventHandler(data.meals);
 };
 
 getData();
@@ -27,27 +27,27 @@ getData();
 const pop = document.querySelector('.pop-up');
 
 main.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (e.target.id === 'comments') {
-        pop.style.display = 'block';
-        const section = document.createElement('div');
-        const popup = document.createElement('div');
-        popup.innerHTML = `
+  e.preventDefault();
+  if (e.target.id === 'comments') {
+    pop.style.display = 'block';
+    const section = document.createElement('div');
+    const popup = document.createElement('div');
+    popup.innerHTML = `
             <h1>Comments</h1>
             <input type="text" placeholder="Your Name">
             <textarea placeholder="Your Insight"></textarea>
             <button>Submit</button>
             <button class="close">Close</button>
         `;
-        section.appendChild(popup);
-        pop.appendChild(section);
-    }
+    section.appendChild(popup);
+    pop.appendChild(section);
+  }
 
-    const close = document.querySelector('.close');
-    close.addEventListener('click', (e) => {
-        e.preventDefault();
-        pop.style.display = 'none';
-    });
+  const close = document.querySelector('.close');
+  close.addEventListener('click', (e) => {
+    e.preventDefault();
+    pop.style.display = 'none';
+  });
 });
 
 export default getData;
