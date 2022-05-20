@@ -14,7 +14,7 @@
 
 ## Link to the live page
 
-> Feel free to check the [Live-site]().
+> Feel free to check the [Live-site](https://lusindiso.github.io/Javascript-Capstone/).
 
 ## Authors
 
