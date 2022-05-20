@@ -1,5 +1,3 @@
-const itemsCounter = (data) => {
-	return data.length;
-}
+const itemsCounter = (data) => data.length;
 
 export default itemsCounter;

@@ -8,7 +8,7 @@ import getLikes from './module/getLikes.js';
 import modal from './module/modal.js';
 import render from './module/render.js';
 import formsubmit from './module/formSubmit.js';
-import itemsCounter from './module/itemsCounter';
+import itemsCounter from './module/itemsCounter.js';
 
 const image = document.querySelector('.header__logo');
 image.innerHTML = `<img src="${logo}" alt="" class="header__logo--img"></img>`;
