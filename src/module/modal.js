@@ -2,7 +2,9 @@ import { main } from './render.js';
 import getComments from './getComments.js';
 import getMeal from './getMeal.js';
 import renderComments from './renderComments.js';
+import commentsCounter from './commentsCounter.js';
 
+const commentHeader = document.querySelector('.comment-header');
 const pop = document.querySelector('.pop-up');
 const meal = document.querySelector('.meal');
 
@@ -24,6 +26,7 @@ const modal = () => {
       </div>`;
       const commentList = await getComments(commentid);
       renderComments(commentList);
+      commentHeader.innerText = `${commentsCounter(commentList)}`;
     }
     const close = document.querySelector('.close');
     close.addEventListener('click', (e) => {
