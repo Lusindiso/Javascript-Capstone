@@ -2,9 +2,7 @@
 
 > This is a fictional website for Wine & Dine, a website where you can find different meals and share your views. It uses the  [MealDB API](https://www.themealdb.com/api.php)
 
-# Screenshot
-
-> This is the first [interface](./screenshot.png)
+![screenshot](./screenshot.png)
 
 ## Built With
 
