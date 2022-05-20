@@ -6,7 +6,7 @@ describe('Returns number of items on the fetched from the api', () => {
     expect(itemsCounter(items)).toBe(0);
   });
 
-  it('returns the number items in the list', () => {
+  it('returns the number of items in the list', () => {
     const items = [
       {
         strMeal: 'Beef Bourguignon',
