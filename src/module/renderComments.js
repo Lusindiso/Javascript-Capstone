@@ -3,7 +3,7 @@ const renderComments = (list) => {
   comments.innerHTML = '';
   list.forEach((el) => {
     comments.innerHTML += `
-    <div>${el.username}: ${el.comment}</div>
+    <div class="comment-item"><span class='user'>${el.username}</span>: <span>${el.comment}</span></div>
        `;
   });
 };
