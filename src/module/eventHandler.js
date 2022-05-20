@@ -9,6 +9,7 @@ const eventHandler = () => {
       await postLikes(mealId);
       // eslint-disable-next-line no-plusplus
       e.target.nextElementSibling.innerText++;
+      e.target.classList.add('liked');
     }
   };
 };

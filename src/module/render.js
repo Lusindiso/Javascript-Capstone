@@ -13,7 +13,7 @@ const render = (data, likesList) => {
 <img src="${el.strMealThumb}" alt="" class="card__img" />
 <div class="card__top">
 <p class="card__top--name">${el.strMeal}</p>
-<div class="card__top--like"><i class="fa-regular fa-heart" id='like'></i><p> ${el.likes || ''} </p>likes</div>
+<div class="card__top--like"><i class="fa-solid fa-heart" id='like'></i><p> ${el.likes || ''} </p>likes</div>
 </div>
 <div class="card__bottom">
 <a href="" id="comments" class="btn">Comment</a>
