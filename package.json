@@ -46,6 +46,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
-    "regenerator-runtime": "^0.13.9"
+    "babel-jest": "^28.1.0",
+    "regenerator-runtime": "^0.13.9",
+    "ts-jest": "^28.0.2"
   }
 }
