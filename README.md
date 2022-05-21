@@ -38,7 +38,7 @@
 
 ## Video Link
 
-> Here is a video link to our work (https://drive.google.com/file/d/15LNvD-5TcJutTbQ7SP69JQTDYTssRhOX/view?usp=sharing)
+> Here is a video link to our work [link](https://drive.google.com/file/d/15LNvD-5TcJutTbQ7SP69JQTDYTssRhOX/view?usp=sharing)
 
 
 ## 🤝 Contributing
