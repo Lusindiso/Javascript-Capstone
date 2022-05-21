@@ -1,3 +1,11 @@
-body {
-  background-color: bisque;
+@import './header.scss';
+@import './main-content.scss';
+@import './footer.scss';
+@import './popup.scss';
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
 }
