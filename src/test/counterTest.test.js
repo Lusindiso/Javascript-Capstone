@@ -5,7 +5,6 @@ describe('Returns number of the comments from the api', () => {
     const comments = [];
     expect(commentsCounter(comments)).toBe(0);
   });
-
   it('returns the number of comments in the list', () => {
     const comments = [{
       name: 'John',
